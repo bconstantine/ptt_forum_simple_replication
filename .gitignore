@@ -1,0 +1,52 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+/.vs
+/Debug
+/x64/Debug/vc142.pdb
+/x64/Debug/vc142.idb
+/x64/Debug/ptt_forum.vcxproj.FileListAbsolute.txt
+/x64/Debug/ptt_forum.tlog/ptt_forum.lastbuildstate
+/x64/Debug/ptt_forum.tlog/link.write.1.tlog
+/x64/Debug/ptt_forum.tlog/link.read.1.tlog
+/x64/Debug/ptt_forum.tlog/link.command.1.tlog
+/x64/Debug/ptt_forum.tlog/CL.write.1.tlog
+/x64/Debug/ptt_forum.tlog/CL.read.1.tlog
+/x64/Debug/ptt_forum.tlog/CL.command.1.tlog
+/x64/Debug/ptt_forum.tlog
+/x64/Debug/ptt_forum.pdb
+/x64/Debug/ptt_forum.log
+/x64/Debug/ptt_forum.ilk
+/x64/Debug/ptt_forum.exe.recipe
+/x64/Debug
+/ALLTITLE.json
+/save_data

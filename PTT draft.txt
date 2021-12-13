@@ -1,0 +1,101 @@
+Features:
+- Register
+- Login
+- Board category breakdown, choose board category (subtopic of the forum)
+- Back and forth between the boards (board connection)
+? Continue draft post when log out
+- Saving post and comment after log out
+- Previous content still saves after the program closes
+- Admin can create new topic (board)
+- everyone can comment and give tuiwen (supportive post) and zuwen (not supportive)
+- everyone can post (add, edit, delete)
+- admin can delete message and give warning to the userr
+
+
+- create new user (cant duplicate)
+* support or not supportive feature can only choose one each account per post
+- can only edit your own post
+- different account can send mail to each other
+
+- user interface (easy and quick to be understood
+- board popularity (top 3 board), top board for today (1 view will equal 1 point, 1 like equal 3 points)
+- mini games (create 3)
+
+
+class BoardManager
+{
+enum BoardState {
+MENU, SELECT_BOARD, BOARD, POST, CHAT_PAGE, USER_PROFILE, USER_POSTS
+} //user posts is used to show all the posts that the user posted to make navigation easier
+BoardState currentState = 0; //set menu for the beginning
+void goToBoard() //go to the desired board, change the currentState
+void back() //if user settings is the current board, just go back to the menu
+
+
+// (temporarily use json) static vector <User> collectionOfAllUser
+vector <Board> collectionOfAllBoard
+void save()
+{
+//save data vector inside board manager class
+Bo
+}
+}
+
+class Board
+{
+vector<Post> collectionOfAllPost
+vector<Post*> topThree
+string toBePrinted；
+string getContent()
+{
+}
+void generateTopThree()
+
+void saveBoardState(); 
+vector <Post> collectionOfAllPost
+void draw() //for drawing the board state
+
+void createPost(unsigned long long userId)
+{
+}
+
+
+}
+post id: numerically ascending
+20210525243801_20210525243802
+
+class User
+{
+	int adminLevel; // 0 admin, 1 member, 2 guest
+	string userName; 
+	unsigned long long userId;
+	vector<Post*> userPost
+ 
+	unsigned long long constructId()
+	{
+	}
+
+	string getUsername()
+	{
+	}
+}
+
+class Post
+{
+string postContent
+vector <Comment> userComment
+unsigned long long userId
+int popularityPoints
+
+}
+
+
+struct Comment
+{
+string comment
+unsigned long long userId;
+int commentType (0 support, 1 neutral, 2 not support)
+}
+
+
+
